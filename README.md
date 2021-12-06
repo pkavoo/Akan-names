@@ -35,7 +35,8 @@ Friday: Afua
 Saturday: Ama
 
 Most people do know when their birthdays are, but some might not know what day of the week they were born. With this app, you can get the day of the week you were born and your Akan name.
-Link to live github page. 
+
+Link to live github page:
 https://pkavoo.github.io/Akan-names/
 ## Setup/Installation Requirements
 Clone the project to your machine. Open index.html in your favourite browser.
