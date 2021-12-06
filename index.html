@@ -1,0 +1,75 @@
+    <html>
+        <head>
+
+            <meta charset="utf-8">
+            <link rel="stylesheet" href="css/bootstrap.css">
+            <link rel="stylesheet" href="styles.css">
+            <title>Akan Names</title>
+            <script src="script.js"></script>
+
+        </head>>
+        <body>
+
+            <div class="container">
+                <div class="jumbotron">
+                 <div class="row">
+                     <div class="col-md-6">
+                         <div class="jumbotron right">
+                             <h1 class="text-center akan">Akan names</h1>
+                             <p class="p-text">The Akan people of Ghana name their children after the day of the week
+                                they were born.</p>
+                             <p>Below are the Ghanian names</p>
+                             <h2>Male</h2>
+                             <ul>
+                                 <li>Sunday: Kwasi</li>    
+                                 <li>Monday: Kwadwo</li>
+                                 <li>Tuesday: Kwabena</li>
+                                 <li>Wednessday: Kwaku</li>
+                                 <li>Thursday: Yaw</li>
+                                 <li>Friday: Kofi</li>
+                                 <li>Saturday: Kwame</li>
+                             </ul>
+                             <h2>Female</h2>
+                             <ul>
+                                 <li>Sunday: Akosua</li>
+                                 <li>Monday: Adwoa</li>
+                                 <li>Tuesday: Abenaa</li>
+                                 <li>Wednessday: Akua</li>
+                                 <li>Thursday: Yaa</li>
+                                 <li>Friday: Afua</li>
+                                 <li>Saturday: Ama</li>
+                             </ul>
+                         </div>
+                     </div>
+                     <div class="col-md-6 right">
+                        <h3>Find your Akan name</h3>
+                         <div class="panel col-md-6 offset-sm-12">
+                            <form name="akannames" onsubmit="return false">
+                            <div class="form-group top-form">
+                                <label for="date" class="labels">Date of Birth</label>
+                                <input type="date" class="form-control" id="date" name="date">                     
+                           </div>  
+                           <br>
+                           <div class="errormsg" id="dateerror"></div>
+                           <br>
+                            <input type="radio" class="genders labels" value="male" id="rad1" name="gender" >Male
+                            <input type="radio" class="genders labels" value="female" id="rad1" name="gender" >Female
+                            <br>
+                            <div class="errormsg" id="gendererror"></div>
+                            <br>
+                            <input type="submit" name="submit" class="btn btn-primary mb-2" onclick="validate()" value="Generate">
+                            <input type="reset" name="reset" class="btn btn-primary mb-2" onclick="refresh(); return false;" value="Refresh">
+                        </form>   
+                        <br>    
+                             <div>
+                                 <p id="result"></p>
+                             </div>    
+                        </div>
+                    </div>   
+                 </div>
+              </div>
+            </div>
+            
+        </body>>
+
+    </html>
