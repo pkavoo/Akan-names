@@ -1,5 +1,5 @@
 # Akan Names App
-#### This is an application that takes your date of birth and tells you the day you were born and your Akan name.
+#### This is an application that takes your date of birth and tells you the day you were born and your Akan name. Link to live github page. https://pkavoo.github.io/Akan-names/
 #### By Polycarp Kavoo.
 ## Description
 Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born. Here are Ghanian day names.
